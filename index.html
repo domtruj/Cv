@@ -6,7 +6,7 @@
     <meta name="description" content="Esta página consulta el Cv de Domingo Trujillo">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow, noarchive">
-	<link rel=”Shortcut Icon” href=”favicon.ico” type=”image/x-icon” />
+	<link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="ccs/style.css" type="text/css">
     <meta property="og:title" content="Cv de Domingo Trujillo" />
     <meta property="og:description" content="Domingo, es un Informático con más de 20 años de experiencia en la profesión ocupando diversos cargos de tipo técnico y gerencial">
@@ -14,6 +14,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.domingotrujillo.com" />
     <meta property="og:image" content="https://www.domingotrujillo.com/images/domingotrujillo.png" />
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
   </head>
 
   <body>
@@ -228,7 +229,28 @@
     </div>
 
     <div class="ta-ce pt-45 fo-fm10">
-      Desarrollo Web: Domingo Trujillo M.
+      Desarrollo Web: Domingo Trujillo M.<br><br><br><span class="ir-arriba ir-arriba2 icon-arrow-up2"></span>
     </div>
+    <div class="ta-ce">
+      <span class="ir-arriba icon-arrow-up2"></span>
+    </div>
+	
+	<script>
+$(document).ready(function(){
+	$('.ir-arriba').click(function(){
+		$('body, html').animate({
+			scrollTop: '0px'
+		}, 300);
+	});
+	$(window).scroll(function(){
+		if( $(this).scrollTop() > 0 ){
+			$('.ir-arriba').slideDown(300);
+		} else {
+			$('.ir-arriba').slideUp(300);
+		}
+	});
+
+});
+   </script>
   </body>
 </html>
