@@ -62,7 +62,7 @@ body {
 	cursor:pointer;
 	position: fixed;
 	bottom:20px;
-/*	right:20px; */
+	left:4000px; */
     background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
@@ -111,3 +111,6 @@ body {
 }
 .hd-img {width:120px; height:120px; display: inline-block; width: 33%; padding-top: 15px}
 }
+.ir-arriba {
+	left:140px; */
+    }
