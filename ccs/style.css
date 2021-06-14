@@ -52,3 +52,19 @@ body {
 .detalle1 {padding: 0;}
 .chulito  {width: 3%; font-size: 20px;}
 .chulito2 {width: 3%; font-size: 15px;}
+
+/***** Start Media Queries #1 - When page width less than 482 pics *****/
+@media handheld and (max-width: 482px), screen and (max-device-width: 482px), screen and (max-width: 482px) {
+body {
+  width: 480px;
+  background-color:#ffffff;
+  color:#000000;
+  font-family: Montserrat, "Open Sans", arial, helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+.hd-img {width:120px; height:120px; display: inline-block; width: 33%; padding-top: 15px}
+}
