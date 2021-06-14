@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+body {
+  width: 800px;
+  background-color:#ffffff;
+  color:#000000;
+  font-family: Montserrat, "Open Sans", arial, helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 150%;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.hd {height: 180px; background-color: #ffffff; margin: 0 auto; padding: 0;}
+.hd-img {width:140px; height:140px; display: inline-block; width: 33%; padding-top: 15px}
+.hd-img2 {background-repeat: no-repeat; background-position: 50%; border-radius: 50%; background-size: 100% auto;}
+.hd-tit-ci {display: inline-block; width: 33%;}
+.hd-tit-dt {display: inline-block; width: 33%;}
+
+.fo-fm300 {font-weight: 300}
+.fo-fm400 {font-weight: 400}
+.fo-fm700 {font-weight: 700}
+.fo-fm10 {font: 10px Montserrat, "Open Sans", arial, helvetica, sans-serif;}
+.fo-fm13 {font: 13px Montserrat, "Open Sans", arial, helvetica, sans-serif;}
+.fo-fm16 {font: 16px Montserrat, "Open Sans", arial, helvetica, sans-serif; font-weight: bold;}
+
+.ancho45p {width: 45%;}
+.ancho86p {width: 86%;}
+.ancho95p {width: 95%;}
+.ancho200 {width: 200px;}
+.ancho300 {width: 300px;}
+.ancho350 {width: 350px;}
+.ancho850 {width: 800px;}
+.ancho950 {width: 950px;}
+
+.disp-v {display: inline-block;}
+.va-tp {vertical-align: top;}
+.va-md {vertical-align: middle;}
+.ta-ce {text-align: center;}
+.ta-le {text-align: left;}
+.ta-ri {text-align: right;}
+.ta-ju {text-align: justify;}
+.pb-16 {padding-bottom: 16px;}
+.pl-10 {padding-left: 10px;}
+.pl-50 {padding-left: 50px;}
+.pt-6  {padding-top: 6px;}
+.pt-15 {padding-top: 15px;}
+.pt-45 {padding-top: 45px;}
+
+.separador-pad {padding: 10px 0 10px 0;}
+.separador {height: 20px; background-color: #c4bc96; padding: 2px 0 2px 10px;}
+.detalle1 {padding: 0;}
+.chulito  {width: 3%; font-size: 20px;}
+.chulito2 {width: 3%; font-size: 15px;}
