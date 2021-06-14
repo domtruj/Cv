@@ -97,9 +97,9 @@ body {
 }
 
 /***** Start Media Queries #1 - When page width less than 482 pics *****/
-@media handheld and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 480px) {
+@media handheld and (max-width: 450px), screen and (max-device-width: 450px), screen and (max-width: 450px) {
 body {
-  width: 480px;
+  width: 450px;
   background-color:#ffffff;
   color:#000000;
   font-family: Montserrat, "Open Sans", arial, helvetica, sans-serif;
