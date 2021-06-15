@@ -69,13 +69,11 @@ body {
     border-radius:50%;
     background-size:100% auto;
     }
-.icon-arrow-up2:before {
-    content:"\ea3a";
-    }
+.icon-arrow-up2:before {content:"\ea3a";}
 @font-face {
   font-family:'icomoon';
   src:url('../fonts/icomoon.eot?5382d3');
-  src:url('../fonts/icomoon.eot?5382d3#iefix'); format('embedded-opentype'),
+  src:url('../fonts/icomoon.eot?5382d3#iefix') format('embedded-opentype'),
       url('../fonts/icomoon.ttf?5382d3') format('truetype'),
       url('../fonts/icomoon.woff?5382d3') format('woff'),
       url('../fonts/icomoon.svg?5382d3#icomoon') format('svg');
