@@ -10,17 +10,17 @@ body {
   padding-bottom: 50px;
   margin: 0 auto;
 }
- a:link, a:visited, a:hover, a:active {color: #000000; text-decoration: none;}
+ a:link, a:visited, a:hover, a:active {color:#000000; text-decoration:none;}
 
 .hd {height: 180px; background-color: #ffffff; margin: 0 auto; padding: 0;}
-.hd-img {width:140px; height:140px; display: inline-block; width: 33%; padding-top: 15px}
+.hd-img {width:140px; height:140px; display: inline-block; width: 33%; padding-top: 15px;}
 .hd-img2 {background-repeat: no-repeat; background-position: 50%; border-radius: 50%; background-size: 100% auto;}
 .hd-tit-ci {display: inline-block; width: 33%;}
 .hd-tit-dt {display: inline-block; width: 33%;}
 
-.fo-fm300 {font-weight: 300}
-.fo-fm400 {font-weight: 400}
-.fo-fm700 {font-weight: 700}
+.fo-fm300 {font-weight: 300;}
+.fo-fm400 {font-weight: 400;}
+.fo-fm700 {font-weight: 700;}
 .fo-fm10 {font: 10px Montserrat, "Open Sans", arial, helvetica, sans-serif;}
 .fo-fm13 {font: 13px Montserrat, "Open Sans", arial, helvetica, sans-serif;}
 .fo-fm16 {font: 16px Montserrat, "Open Sans", arial, helvetica, sans-serif; font-weight: bold;}
@@ -63,7 +63,7 @@ body {
 	cursor:pointer;
 	position: fixed;
 	bottom:20px;
-	left:50%
+	left:50%;
     background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
@@ -75,7 +75,7 @@ body {
 @font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?5382d3');
-  src:  url('../fonts/icomoon.eot?5382d3#iefix') format('embedded-opentype'),
+  src:  url('../fonts/icomoon.eot?5382d3#iefix'); format('embedded-opentype'),
     url('../fonts/icomoon.ttf?5382d3') format('truetype'),
     url('../fonts/icomoon.woff?5382d3') format('woff'),
     url('../fonts/icomoon.svg?5382d3#icomoon') format('svg');
@@ -110,7 +110,6 @@ body {
   padding-bottom: 50px;
   margin: 0 auto;
 }
-.hd-img {width:120px; height:120px; display: inline-block; width: 33%; padding-top: 15px}
-.ir-arriba {
-	left:50%
-    }
+.hd-img {width:120px; height:120px; display: inline-block; width: 33%; padding-top: 15px;}
+.ir-arriba {left:50%;}
+]
