@@ -10,7 +10,7 @@ body {
   padding-bottom: 50px;
   margin: 0 auto;
 }
- a:link, a:visited, a:active a:hover {color:#000000; text-decoration:none;}
+ a:link, a:visited, a:active a:hover {color: #000000; text-decoration: none;}
 
 .hd {height: 180px; background-color: #ffffff; margin: 0 auto; padding: 0;}
 .hd-img {width:140px; height:140px; display: inline-block; width: 33%; padding-top: 15px}
@@ -111,7 +111,6 @@ body {
   margin: 0 auto;
 }
 .hd-img {width:120px; height:120px; display: inline-block; width: 33%; padding-top: 15px}
-}
 .ir-arriba {
 	left:50%
     }
